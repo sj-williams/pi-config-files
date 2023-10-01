@@ -1,0 +1,5 @@
+# /etc/exports: the access control list for filesystems which may be exported
+#		to NFS clients.  See exports(5).
+
+# Share /mnt/media with * on local network
+/mnt/media *(rw,insecure,sync,no_subtree_check,no_root_squash)
